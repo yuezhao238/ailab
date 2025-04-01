@@ -9,8 +9,6 @@ rm -rf vae && ln -s /ssdshare/share/lab5/ComfyUI-models/vae vae
 
 cd ..
 
-cd custom_nodes
-ln -s /ssdshare/share/lab5/custom_nodes/ComfyUI-Manager ComfyUI-Manager
+ln -s /ssdshare/share/lab5/custom_nodes custom_nodes
 
-cd ..
 /usr/bin/python main.py
